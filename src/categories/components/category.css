@@ -1,0 +1,16 @@
+.Category{
+ margin: 30px 0;
+}
+
+.Category__title{
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #44546b;
+}
+
+.Category__description{
+    margin: 0;
+    font-size: 14px;  
+    color: #8e8f91;
+}
