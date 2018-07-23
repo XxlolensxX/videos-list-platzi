@@ -5,6 +5,7 @@ import Related from '../components/related.jsx';
 import ModalContainer from '../../widgets/containers/modal.jsx';
 import Modal from '../../widgets/components/modal.jsx';
 import HandleError from '../../errors/containers/errors.jsx';
+import VideoPlayer from '../../player/containers/videoplayer.jsx';
 
 class Home extends Component {
     state = {
@@ -38,7 +39,7 @@ class Home extends Component {
                             <Modal
                                 handleCloseModal={this.handleCloseModal}
                             >
-                                <h1>video here</h1>
+                                <VideoPlayer />
                             </Modal>
                         </ModalContainer>
                     }
