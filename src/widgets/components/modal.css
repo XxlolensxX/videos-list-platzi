@@ -10,3 +10,13 @@
     max-width: 768px;
     box-shadow: 0 0 10px rgba(0,0,0,.4)
 }
+
+.Modal__close {
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
